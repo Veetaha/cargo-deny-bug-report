@@ -1,0 +1,16 @@
+[licenses]
+unlicensed = "deny"
+private = { ignore = true }
+
+allow = [ "Unlicense" ]
+default = "deny"
+
+# exceptions = [
+#     { allow = ["Unlicense"], name = "stream-vbyte", version = "*" },
+# ]
+
+[[licenses.clarify]]
+name = "stream-vbyte"
+version = "0.3.2"
+expression = "Unlicense"
+license-files = [{ path = "LICENCE.txt", hash = 0x508d93ea }]
